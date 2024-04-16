@@ -5,6 +5,17 @@ function esMayorDeEdad(fechaNacimiento) {
   // Devuelve true si lo es, caso contrario, retorna false.
   // PISTA: Investiga el método getFullYear() de la clase Date para obtener el año actual.
   // Tu código:
+var hoy = new Date();
+var anioActual = hoy.getFullYear();
+
+var edad = anioActual - fechaNacimiento.getFullYear();
+
+if (edad >= 18){
+  return true;
+} else{
+  return false;
+} 
 }
+console.log(esMayorDeEdad(new Date(2018, 7, 13)));
 
 module.exports = esMayorDeEdad;
