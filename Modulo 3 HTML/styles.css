@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a56060;
+    color: #333;
+    margin: 20px;
+}
+  
+#mi-header {
+    color: black; /* Color del texto blanco */
+    padding: 50px;
+    width: 50vw;
+    margin: auto;
+    padding: 3em;
+    display:flex;
+    justify-content: center;
+    }
+
+.logo{
+    width: 20em;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgb(206, 250, 7);
+    font-size: 16px;
+    background-color: rgb(0, 255, 255);
+    width: 21vw;
+        
+    
+}
+
+.title:hover{
+    background-color:bisque;
+}
+
+
+.listas{
+    border: 5px inset black;
+    transition: 2s;
+    width: 22vw;
+    height: 22vw;
+    padding: 1em;
+    display: flex;
+
+    
+}
+
+.listas:hover{
+    background-color: rgb(246, 234, 20);
+}
+
+#contenedor {
+    background-color: beige;
+    width: 85vw;
+    height: 30vw;
+    margin: auto;
+    border: 10px double black;
+    padding: 1em;
+    border-radius: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.cajita {
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;   
+    align-items: center;
+
+}
+

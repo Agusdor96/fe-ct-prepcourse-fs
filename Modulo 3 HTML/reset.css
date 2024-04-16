@@ -1,0 +1,31 @@
+/* Reset CSS */
+
+/* Establecer el tamaño de la fuente y el tamaño de la caja en todos los navegadores */
+* {
+    box-sizing: border-box;
+}
+
+/* Establecer márgenes y relleno predeterminados en todos los elementos */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer la fuente predeterminada y el color del texto */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Establecer estilos comunes para los elementos de lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Establecer el estilo de las imágenes para ser responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
