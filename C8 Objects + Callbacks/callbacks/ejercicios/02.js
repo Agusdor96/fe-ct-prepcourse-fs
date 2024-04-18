@@ -12,13 +12,7 @@ function cambiarCadena(string, callback) {
       return string;
    }
 
-   function transformarMayusculas(texto) {
-      return texto.toUpperCase(); // Devuelve el texto en mayúsculas
-    }
-    
-    let cadenaOriginal = "Hola mundo";
-    let cadenaModificada = cambiarCadena(cadenaOriginal, transformarMayusculas);
-    console.log(cadenaModificada); 
+};
    
-} 
+
 module.exports = cambiarCadena;
